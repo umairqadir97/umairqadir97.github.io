@@ -1,83 +1,463 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-     <meta charset=utf-8 /> <meta name=viewport content="width=device-width, initial-scale=1"> 
-     <title>UMAIR Portfolio</title> 
-      <link href="//fonts.googleapis.com/css?family=Raleway:400" rel=stylesheet /> 
-      <link href="/main.css" rel=stylesheet />
+<html class=" js no-touch backgroundsize csstransforms3d csstransitions csstransforms" lang="en">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Data Science Portfolio By Umair Qadir</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--main style-->
+    <link rel="stylesheet" type="text/css" media="screen" href="./Portfolio_files/bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./Portfolio_files/style.css">
+    <!--background slider style-->
+    <link rel="stylesheet" type="text/css" href="./Portfolio_files/slideshow.css">
+    <!--google font style-->
+    <link href="./Portfolio_files/css" rel="stylesheet" type="text/css">
+    <!--font-family: 'Open Sans', sans-serif;-->
+    <!-- font css style-->
+    <link rel="stylesheet" href="./Portfolio_files/font-awesome.css">
+    <link rel="stylesheet" href="./Portfolio_files/font-awesome.min.css">
+    <!--for slider style-->
+
+    <script defer src="/Portfolio_files/fontawesome-all.js"></script>
+    <noscript>
+    &lt;link rel="stylesheet" type="text/css" href="css/fallback.css" /&gt;
+    </noscript>
+
+    <link rel="stylesheet" type="text/css" href="css/fallback.css" />
   </head>
-  <body>
+<body>
+<!--wrapper start-->
+<div class="wrapper" id="wrapper">
+  <header>
+    <!--banner start-->
+    <div class="banner row" id="banner" style="width: 1349px; height: 536px;">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd" style="height:100%">
+        <!--background slide show start-->
+         <ul class="cb-slideshow">
+          <li><span>Image 01</span></li>
+          <li><span>Image 02</span></li>
+        </ul>
+        <!--background slide show end-->
+      </div>
+    </div>
+    <!--banner end-->
+    <div class="bannerText container">
+      <h1>I'm Umair Qadir</h1>
+      <h2>Build &amp; Deploy AI Technology To Solve Real World Problems</h2>
+    </div>
+    <!--menu start-->
+    <div class="menu">
+      <div class="navbar-wrapper stuckMenu" style="position: relative; top: 0px;">
+        <div class="container">
+          <div class="navwrapper">
+            <div class="navbar navbar-inverse navbar-static-top">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                  <a class="navbar-brand" href="./Portfolio_files/#">Menu</a> </div>
+                <div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                    <li class="menuItem active"><a href="#wrapper">Home</a></li>
+                    <li class="menuItem"><a href="#aboutme">About</a></li>
+                    <li class="menuItem"><a href="#technical">Skills</a></li>
+                    <li class="menuItem"><a href="#exprience">Experience</a></li>
+                    <li class="menuItem"><a href="#education">Education</a></li>
+                    <li class="menuItem"><a href="#protfolio">Portfolio</a></li>
+                    <li class="menuItem"><a href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Navbar -->
+        </div>
+      </div>
+    </div>
+    <!--menu end-->
+  </header>
+  <!--about me start-->
+  <section class="aboutme" id="aboutme" style="background: #204060">
+    <div class="container">
+      <div class="heading">
+        <h2>About me</h2>
+        <p>A brief introduction about my self</p> 
+      </div>
+      <div class="row">
+        <div class=" col-xs-12 col-sm-12 col-md-7 col-lg-7">
+          <h3>Umair Qadir</h3>
+          <h4 class="subHeading">Machine Learning &amp; Web Development</h4>
+          <p>Any sufficiently advanced technology is indistinguishable from magic. It's exciting to live in 21st century. Modern Data Science technologies enable us to get better insights and make life easier by using tons of data that we generate everyday very seamlessly.</p>
 
-<h1>Data science Portfolio by Umair Qadir&nbsp;</h1>
-<p>This portfolio is a compilation of notebooks and other Gitub Repositories which I created for data analysis or for exploration of machine learning algorithms.</p>
-<h2>Stand-alone projects.</h2>
-<h3>Handwritten digit recognition</h3>
-<p>This is my own project using image recognition methods in practice. This is a site (also works on mobile) where user can draw a digit, and machine learning models (FNN and CNN) will try to recognize it. After than models can use the drawn digit for training to improve their accuracy. Live version is&nbsp;<a href="https://digits-draw-recognize.herokuapp.com/" rel="nofollow">here</a>. The code can be found&nbsp;<a href="https://github.com/Erlemar/digit-draw-recognize">here</a>.</p>
-<hr />
-<h2>Classification problems.</h2>
-<h3>Titanic: Machine Learning from Disaster</h3>
-<p><a href="https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/Titanic.ipynb">Github</a>&nbsp;<a href="http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/Titanic.ipynb" rel="nofollow">nbviewer</a></p>
-<p>Titanic: Machine Learning from Disaster is a knowledge competition on Kaggle. Many people started practicing in machine learning with this competition, so did I. This is a binary classification problem: based on information about Titanic passengers we predict whether they survived or not. General description and data are available on&nbsp;<a href="https://www.kaggle.com/c/titanic" rel="nofollow">Kaggle</a>. Titanic dataset provides interesting opportunities for feature engineering.</p>
-<h3>Ghouls, Goblins, and Ghosts... Boo!</h3>
-<p><a href="https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/GGG.ipynb">Github</a>&nbsp;<a href="http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/GGG.ipynb" rel="nofollow">nbviewer</a></p>
-<p>Ghouls, Goblins, and Ghosts... Boo! is a knowledge competition on Kaggle. This is a multiple classification problem: based on information about monsters we predict their types. A fun competition for Halloween. General description and data are available on&nbsp;<a href="https://www.kaggle.com/c/ghouls-goblins-and-ghosts-boo" rel="nofollow">Kaggle</a>. This dataset has little number of samples, so careful feature selection and model ensemble are necessary for high accuracy.</p>
-<h3>Otto Group Product Classification Challenge</h3>
-<p><a href="https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/Otto_Group.ipynb">Github</a>&nbsp;<a href="http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/Otto_Group.ipynb" rel="nofollow">nbviewer</a></p>
-<p>Otto Group Product Classification Challenge is a knowledge competition on Kaggle. This is a multiple classification problem. Based on information about products we predict their category. General description and data are available on&nbsp;<a href="https://www.kaggle.com/c/otto-group-product-classification-challenge" rel="nofollow">Kaggle</a>. The data is obfuscated, so the main questionlies in the selection of the model for prediction.</p>
-<h3>Imbalanced classes</h3>
-<p><a href="https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/Imbalanced.ipynb">Github</a>&nbsp;<a href="http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/Imbalanced.ipynb" rel="nofollow">nbviewer</a></p>
-<p>In real world it is common to meet data in which some classes are more common and others are rarer. In case of a serious disbalance prediction rare classes could be difficult using standard classification methods. In this notebook I analyse such a situation. I can't share the data, used in this analysis.</p>
-<h3>Bank card activations</h3>
-<p><a href="https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/Card_activation.ipynb">Github</a>&nbsp;<a href="http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/Card_activation.ipynb" rel="nofollow">nbviewer</a></p>
-<p>Banks strive to increase the efficiency of their contacts with customers. One of the areas which require this is offering new products to existing clients (cross-selling). Instead of offering new products to all clients, it is a good idea to predict the probability of a positive response. Then the offers could be sent to those clients, for whom the probability of response is higher than some threshold value. In this notebook I try to solve this problem.</p>
-<hr />
-<h2>Regression problems.</h2>
-<h3>House Prices: Advanced Regression Techniques</h3>
-<p><a href="https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/House_Prices.ipynb">Github</a>&nbsp;<a href="http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/House_Prices.ipynb" rel="nofollow">nbviewer</a></p>
-<p>House Prices: Advanced Regression Techniques is a knowledge competition on Kaggle. This is a regression problem: based on information about houses we predict their prices. General description and data are available on&nbsp;<a href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques" rel="nofollow">Kaggle</a>. The dataset has a lot of features and many missing values. This gives interesting possibilities for feature transformation and data visualization.</p>
-<h3>Loan Prediction</h3>
-<p><a href="https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/Loan_Prediction.ipynb">Github</a>&nbsp;<a href="http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/Loan_Prediction.ipynb" rel="nofollow">nbviewer</a></p>
-<p>Loan Prediction is a knowledge and learning hackathon on Analyticsvidhya. Dream Housing Finance company deals in home loans. Company wants to automate the loan eligibility process (real time) based on customer detail provided while filling online application form. Based on customer's information we predict whether they should receive a loan or not. General description and data are available on&nbsp;<a href="https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/" rel="nofollow">Analyticsvidhya</a>.</p>
-<h3>Caterpillar Tube Pricing</h3>
-<p><a href="https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/Caterpillar.ipynb">Github</a>&nbsp;<a href="http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/Caterpillar.ipynb" rel="nofollow">nbviewer</a></p>
-<p>Caterpillar Tube Pricing is a competition on Kaggle. This is a regression problem: based on information about tube assemblies we predict their prices. General description and data are available on&nbsp;<a href="https://www.kaggle.com/c/caterpillar-tube-pricing" rel="nofollow">Kaggle</a>. Dataset consists of many files, so there is an additional challenge in combining the data snd selecting the features.</p>
-<hr />
-<h2>Natural language processing.</h2>
-<h3>Bag of Words Meets Bags of Popcorn</h3>
-<p><a href="https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/Bag_of_Words.ipynb">Github</a>&nbsp;<a href="http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/Bag_of_Words.ipynb" rel="nofollow">nbviewer</a></p>
-<p>Bag of Words Meets Bags of Popcorn is a sentimental analysis problem. Based on texts of reviews we predict whether they are positive or negative. General description and data are available on&nbsp;<a href="https://www.kaggle.com/c/word2vec-nlp-tutorial" rel="nofollow">Kaggle</a>. The data provided consists of raw reviews and class (1 or 2), so the main part is cleaning the texts.</p>
-<h3>NLP with Python: exploring Fate/Zero</h3>
-<p><a href="https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/Fate_Zero_explore.ipynb">Github</a>&nbsp;<a href="http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/Fate_Zero_explore.ipynb" rel="nofollow">nbviewer</a></p>
-<p>Natural language processing in machine learning helps to accomplish a variety of tasks, one of which is extracting information from texts. This notebook is an overview of several text exploration methods using English translation of Japanese light novel "Fate/Zero" as an example.</p>
-<h3>NLP. Text generation with Markov chains</h3>
-<p><a href="https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/Markov_chain_nlp.ipynb">Github</a>&nbsp;<a href="http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/Markov_chain_nlp.ipynb" rel="nofollow">nbviewer</a></p>
-<p>This notebook shows how a new text can be generated based on a given corpus using an idea of Markov chains. I start with simple first-order chains and with each step improve model to generate better text.</p>
-<h3>NLP. Text summarization</h3>
-<p><a href="https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/Summarize.ipynb">Github</a>&nbsp;<a href="http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/Summarize.ipynb" rel="nofollow">nbviewer</a></p>
-<p>This notebook shows how text can be summarized choosing several most important sentences from the text. I explore various methods of doing this based on a news article.</p>
-<hr />
-<h2>Clustering</h2>
-<h3>Clustering with KMeans</h3>
-<p><a href="https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/Clustering_with_K-Means.ipynb">Github</a>&nbsp;<a href="http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/Clustering_with_K-Means.ipynb" rel="nofollow">nbviewer</a></p>
-<p>Clustering is an approach to unsupervised machine learning. Clustering with KMeans is one of algorithms of clustering. in this notebook I'll demonstrate how it works. Data used is about various types of seeds and their parameters. It is available&nbsp;<a href="https://archive.ics.uci.edu/ml/datasets/seeds" rel="nofollow">here</a>.</p>
-<hr />
-<h2>Neural networks</h2>
-<h3>Feedforward neural network with regularization</h3>
-<p><a href="https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/NN_GGG.ipynb">Github</a>&nbsp;<a href="http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/NN_GGG.ipynb" rel="nofollow">nbviewer</a></p>
-<p>This is a simple example of feedforward neural network with regularization. It is based on Andrew Ng's lectures on Coursera. I used data from Kaggle's challenge "Ghouls, Goblins, and Ghosts... Boo!", it is available&nbsp;<a href="https://www.kaggle.com/c/ghouls-goblins-and-ghosts-boo" rel="nofollow">here</a>.</p>
-<hr />
-<h2>Data exploration and analysis</h2>
-<h3>Telematic data</h3>
-<p><a href="https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/Devices_analysis.ipynb">Github</a>&nbsp;<a href="http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/Devices_analysis.ipynb" rel="nofollow">nbviewer</a></p>
-<p>I have a dataset with telematic information about 10 cars driving during one day. I visualise data, search for insights and analyse the behavior of each driver. I can't share the data, but here is the notebook. I want to notice that folium map can't be rendered by native github, but nbviewer.jupyter can do it.</p>
-<hr />
-<h2>Recommendation systems.</h2>
-<h3>Collaborative filtering</h3>
-<p><a href="https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/Collaborative_filtering.ipynb">Github</a>&nbsp;<a href="http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/Collaborative_filtering.ipynb" rel="nofollow">nbviewer</a></p>
-<p>Recommenders are systems, which predict ratings of users for items. There are several approaches to build such systems and one of them is Collaborative Filtering. This notebook shows sevуral examples of collaborative filtering algorithms.</p>
-    
-  </body>
-  
-</html>
+          <p>I'm Software Engineer working in Full Stack Development and Machine Learning. Started working on these technologies almost 2 years ago. In the mean time I have helped building multiple Machine Learning &amp; Web application from learning management system and recommndation systems to applications involving Deep Learning techniques. And in this experience, explored various facets of data science and user research. </p>
+          <a href="https://docs.google.com/document/d/1shpQXBMbo6AM1uNjCO7AKMh48FtuTJgVb_P7oJv4Nok/edit?usp=sharing" class="bntDownload" target="_blank">Download Printable Resume</a> </div>
+        <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1 proPic"> <img src="./Portfolio_files/umair.PNG" alt="" class="img-circle topmar"> </div>
+      </div>
+    </div>
+  </section>
+  <!--about me end-->
+  <!--technical start-->
+  <section class="technical" id="technical" style="background: #a3c2c2">
+    <div class="container">
+      <div class="heading">
+        <h2>Technical Skills</h2>
+        <p>I can say i’m quite good at</p>
+      </div>
+      <div class="row">
+        <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="90"> <span class="percent">90</span> <canvas height="152" width="152"></canvas></span>
+            <h4>Python</h4>
+            <p>Numpy, Pandas, Matplotlib, OpenCV</p>
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="80"> <span class="percent">80</span> <canvas height="152" width="152"></canvas></span>
+            <h4>Machine Learning</h4>
+            <p>Keras, NLTK, Scikit-learn, Scipy</p>
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="80"> <span class="percent">80</span> <canvas height="152" width="152"></canvas></span>
+            <h4>Neural Networks</h4>
+            <p>Tensorflow, Theano, Keras</p>
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="75"> <span class="percent">75</span> <canvas height="152" width="152"></canvas></span>
+            <h4>Django</h4>
+            <p></p>
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="60"> <span class="percent">60</span> <canvas height="152" width="152"></canvas></span>
+            <h4>JavaScript / Bootstrap</h4>
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="65"> <span class="percent">65</span> <canvas height="152" width="152"></canvas></span>
+            <h4>REST-API / MYSQL</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--technical end-->
+  <!--exprience start-->
+  <section class="exprience" id="exprience">
+    <div class="container">
+      <div class="heading">
+        <h2>Work Experience</h2>
+        <p>My previous associations</p>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">Feb,2017<br>
+            Feb,2018</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>Ayulla</h4>
+            <h5>Software Engineer</h5>
+            <p>Worked as Python developer with backend team. Contributed to large scale applicati on giving complete view of customer requiqrements. Also performed predictive analysis using Machine Learning algorithms. Designed API response System for application using django-rest-framework with Python3 and OAuth2 for authentication system.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">Jan,2017<br>
+            Mar,2017</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>Konstant Variables</h4>
+            <h5>Research Engineer</h5>
+            <p>Worked with Machine Learning researchers group. Got hands dirty writing prototype of Flood-Survivors Detection using IR Imagery on an autonomous drone along with other team members.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">Jun,2016<br>
+            Aug,2016</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>Zigron</h4>
+            <h5>Intern</h5>
+            <p>Worked on Big Data technologies. Used technologies like apache spark, hadoop, MapReduce and cassandra. Worked with large scale applications. Contributed to already going on system involving getting &amp; processing data from S3 storage, AWS and improving data operations rate per seconds.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--exprience end-->
+  <!--education start-->
+  <section class="education" id="education">
+    <div class="container">
+      <div class="heading">
+        <h2>Education</h2>
+        <p>What I have done in my academic career</p>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">June,2018</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>Bachelor of Science(cs)</h4>
+            <h5>University of Engineering &amp; Technology, Lahore</h5>
+            <p>CGPA: 3.3/4.0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--education end-->
+  <!--protfolio start-->
+  <section class="protfolio" id="protfolio" style="background: #204060">
+    <div class="container">
+      <div class="heading">
+        <h2 style="color:#ffffff">Portfolio</h2>
+        <p>showcase of my latest works</p>
+      </div>
+       
+       <!-- PROJECTS Slides start here...-->
+      <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-3 col-lg-offset-1 coldcol-sm-4">
+                    <div style="width :110%">
+                        <a href="https://github.com/umairqadir97/Autonomous-Security-Surveillance-Firearm-Detection-System" class="portfolio-box" target="_blank">
+                            <img src="./Portfolio_files/smart_surveillance.png" class="img-responsive" alt="" style="height:130px">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-name" style="color:#336699;">
+                                    	Github
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <h3 style="text-align: center">Smart Surveillance</h3><br>
+                        <p class="text-muted" style="font-size: small;color: #fff"> <br>A computer vision application aimed to give admininstration better control for ensuring security given video stream.</p>
+                        <!--b class="text-muted">Accepted Poster at IEEE Viz Conference 2015!</b-->
+                    </div>
+                </div>
 
-    
+
+                <div class="col-lg-3 col-lg-offset-1 col-sm-4">
+                    <div style="width :110%">
+                        <a href="https://github.com/umairqadir97/Learning-Management-Syatem" class="portfolio-box" target="_blank">
+                            <img src="./Portfolio_files/lms.png" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-name" style="color:#336699;">
+                                    	Github
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <h3 style="text-align: center">Learning Management System</h3><br>
+                        <p class="text-muted" style="font-size: small;color: #fff"> An advanced approcah towards Smart LMS ensuring more personalized learning.</p>
+                        <!--b class="text-muted">Accepted Poster at IEEE Viz Conference 2015!</b-->
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-lg-offset-1 col-sm-4">
+                    <div style="width :100%">
+                        <a href="https://github.com/umairqadir97/Sentense-Classification-with-CNN" class="portfolio-box" target="_blank">
+                            <img src="./Portfolio_files/review.png" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-name" style="color:#336699;">
+                                    	Github
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <h3 style="text-align: center">Customer Review Classification</h3><br>
+                        <p class="text-muted" style="font-size: small;color:#fff">A Deep Learning based system for classification of user reviews and extracting complaint issues.</p>
+                        <!--b class="text-muted">Pay Smart!</b-->
+                    </div>
+                    <br>
+                </div>
+                <div class="col-lg-3 col-lg-offset-1 col-sm-4">
+                    <div style="width :80%">
+                        <a href="https://github.com/umairqadir97/genderPredictor" class="portfolio-box" target="_blank">
+                            <img src="./Portfolio_files/gender.png" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                  	<div class="project-name" style="color:#336699;">
+                                    	Github
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <h3 style="text-align: center">Gender Predictor </h3><br>
+                        <p class="text-muted" style="font-size: small;color:#ffffff">Machine Learning application that classifies first names into gender as Male/Female.</p>
+                        <!--b class="text-muted">Share your happiness!</b-->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-lg-offset-1 col-sm-4">
+                    <div style="width :120%">
+                        <a href="https://github.com/umairqadir97/Automatic-Ontology-Extraction" class="portfolio-box" target="_blank">
+                            <img src="./Portfolio_files/knowledge-network.png" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-name" style="color:#336699;">
+                                    	<br><br><br><br>Github
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <h3 style="text-align: center">Automatic Ontology Learning</h3><br>
+                        <p class="text-muted" style="font-size: small;color:#ffffff">Automatic extraction of Ontology from unstructed text using Natural Language Processing.</p>
+                        <!--b class="text-muted">A fun user research project with great people with love for food!!</b-->
+                    </div>
+
+
+                </div>
+                <div class="col-lg-3 col-lg-offset-1 col-sm-4">
+                    <div style="width :90%">
+                        <a href="https://github.com/umairqadir97/Django_Web_Crawler" class="portfolio-box" target="_blank">
+                            <img src="./Portfolio_files/spider.png" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-name" style="color:#336699;">
+                                    	Github
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <h3 style="text-align: center">Django Web Crawler</h3><br>
+                        <p class="text-muted" style="font-size: small">Django based web crawler .</p>
+                        <!--b class="text-muted">A fun user research project with great people with love for food!!</b-->
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--protfolio end-->
+  <!--contact start-->
+  <section class="contact" id="contact">
+    <div class="container topCon">
+      <div class="heading">
+        <h2>Get In Touch</h2>
+        <p>Please feel free if you would like to have a chat.
+        	<br><br>
+        <img src="./Portfolio_files/phone.png" height="42" width="42"> 092-349-7984712
+    	</p>
+
+        <ul>
+        <a href="https://github.com/umairqadir97" target="_blank"><img src="./Portfolio_files/github.jpg" height="42" width="42" 
+          style="padding:1px;margin:20px;"></a>
+
+        <a href="https://www.linkedin.com/in/muhammad-umair-qadir-12ab64b8/" target="_blank"><img src="./Portfolio_files/linkedin.jpg" height="42" width="42" style="padding:2px;margin:20px;"></a>
+
+        <a href="mailto:umairqadir97@gmail.com" target="_blank"><img src="./Portfolio_files/mail.jpg" height="42" width="42" margin-right: 10px; style="padding:2px;margin:20px;"></a>
+      </ul>
+      </div>
+    </div>
+      <!--contact form end-->
+    </div>
+      
+  </section>
+  <!--contact end-->
+</div>
+<!--wrapper end-->
+<!--modernizr js-->
+<script type="text/javascript" src="./Portfolio_files/modernizr.custom.26633.js.download"></script>
+<!--jquary min js-->
+<script type="text/javascript" src="./Portfolio_files/jquery.min.js.download"></script>
+<script src="./Portfolio_files/bootstrap.js.download"></script>
+<script type="text/javascript" src="./Portfolio_files/jquery.gridrotator.js.download"></script>
+<!--for custom jquary-->
+<script src="./Portfolio_files/custom.js.download"></script>
+<!--for placeholder jquary-->
+<script type="text/javascript" src="./Portfolio_files/jquery.placeholder.js.download"></script>
+<!--for menu jquary-->
+<script type="text/javascript" src="./Portfolio_files/stickUp.js.download"></script>
+<script type="text/javascript">
+$("#cd-sli > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+}, 3000);
+
+jQuery(function($) {
+$(document).ready( function() {
+  //enabling stickUp on the '.navbar-wrapper' class
+  $('.navbar-wrapper').stickUp({
+				parts: {
+				  0: 'banner',
+				  1: 'aboutme',
+				  2: 'technical',
+				  3: 'exprience',
+				  4: 'education',
+				  5: 'protfolio',
+				  6: 'contact'
+				},
+				itemClass: 'menuItem',
+				itemHover: 'active',
+				topMargin: 'auto'
+			  });
+});
+
+$( ".navbar.navbar-inverse.navbar-static-top a" ).click(function() {
+  $( ".navbar-collapse" ).addClass( "hideClass" );
+});
+
+
+$( ".navbar.navbar-inverse.navbar-static-top a" ).click(function() {
+  $( ".navbar-collapse" ).addClass( "collapse" );
+});
+
+
+$( ".navbar.navbar-inverse.navbar-static-top a" ).click(function() {
+  $( ".navbar-collapse" ).removeClass( "in" );
+});
+
+$( ".navbar-toggle" ).click(function() {
+  $( ".navbar-collapse" ).removeClass( "hideClass" );
+});
+
+
+});
+</script>
+<!--for portfoli filter jquary-->
+<script src="./Portfolio_files/jquery.isotope.js.download" type="text/javascript"></script>
+<!--for portfoli lightbox -->
+<link type="text/css" rel="stylesheet" id="theme" href="./Portfolio_files/jquery-ui-1.8.16.custom.css">
+<link type="text/css" rel="stylesheet" href="./Portfolio_files/lightbox.min.css">
+<script type="text/javascript" src="./Portfolio_files/jquery.ui.widget.min.js.download"></script>
+<script type="text/javascript" src="./Portfolio_files/jquery.ui.rlightbox.js.download"></script>
+<!--for skill chat jquary-->
+<script src="./Portfolio_files/jquery.easing.min.js.download"></script>
+<script src="./Portfolio_files/jquery.easypiechart.js.download"></script>
+<!--contact form js-->
+<script type="text/javascript" src="./Portfolio_files/jquery.contact.js.download"></script>
+
+<div id="ui-lightbox" class="ui-widget ui-widget-content ui-corner-all" style="display: none">
+  <div id="ui-lightbox-content-container">
+    <div id="ui-lightbox-content" class="ui-widget-content">
+    </div>
+    <a id="ui-lightbox-arrow" class="ui-widget-header" style="display: none">
+      <span class="ui-icon">go</span>
+    </a>
+  </div>
+  <div id="ui-lightbox-bottombar" class="ui-widget-header ui-corner-all" style="display: none">
+    <p id="ui-lightbox-title-wrapper"><span id="ui-lightbox-title"></span></p>
+    <p id="ui-lightbox-bottombar-bottom">
+      <a id="ui-lightbox-button-prev" class="ui-lightbox-button">
+        <span class="ui-icon ui-icon-circle-arrow-w">prev</span></a><span id="ui-lightbox-counter">
+      </span><a id="ui-lightbox-button-next" class="ui-lightbox-button"><span class="ui-icon ui-icon-circle-arrow-e">next</span></a></p><a id="ui-lightbox-button-close" class="ui-lightbox-button"><span class="ui-icon ui-icon-closethick">close</span></a><div id="ui-lightbox-panorama-icon" style="display: none"></div></div></div><div id="ui-lightbox-overlay" class="ui-widget-overlay" style="display: none"></div><div id="ui-lightbox-map" style="display: none"><div id="ui-lightbox-map-viewport"></div></div></body></html>
