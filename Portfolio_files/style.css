@@ -34,11 +34,11 @@
 	margin:0;
 }
 body {
-	color:#fff;
+	color:#111;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	position:relative;
-	background:#000;
+	background:#111;
 	width:100%;
 	height:100%;
 	overflow: scroll;
@@ -147,19 +147,19 @@ header{
 	position:relative;
 }
 .banner{
-	overflow:hidden;
-	margin:0 auto !important;
-	background:#CACACA;
+	/* overflow:hidden; */
+	/* margin:0 auto !important; */
+	background:#000;
 }
 
 .bannerText{
 	position:absolute;
 	left:0;
 	right:0;
-	top:35%;
+	top:15%;
 	text-align:center;
 	padding:30px 0 30px ;
-	max-width:960px;
+	max-width:500px;
 	border:1px solid #fff;
 	background: rgba(0, 0, 0, 0.2);
 	 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#b2000000, endColorstr=#b2000000);
@@ -433,7 +433,7 @@ header{
 ------------------------------------------------------*/
 
 .aboutme{
-	background:#00bdbd;
+	background:#fff;
 	color:#fff;
 	position:relative;
 }
@@ -444,7 +444,7 @@ header{
 
 
 .aboutTop{
-	background:#00bdbd;
+	background:#fff;
 	height:60px;
 }
 .spHeight .aboutTop{
@@ -476,8 +476,8 @@ header{
 }
 
 .technical{
-	background:#eeeeee;
-	color:#474d5d;
+	background:#111;
+	color:#270;
 }
 .technical .container{
 	padding-top:85px ;
@@ -488,10 +488,10 @@ header{
 }
 
 .technical p{
-	color:#474d5d;
+	color:#ffe;
 }
 .technical h2{
-	color:#ff675f;
+	color:#fff;
 }
 
 .technical .skillsArea{
@@ -505,7 +505,7 @@ header{
 	float:none;
 }
 .technical .skills p{
-	color:#84868d;
+	color:#ffe;
 	font-size:13px;
 	line-height:18px;
 	text-align:center;
@@ -544,7 +544,7 @@ header{
 .percent {
   display: inline-block;
   font-size:21px;
-  color:#474d5d;
+  color:#fee;
   line-height: 152px;
   z-index: 2;
 }
@@ -567,7 +567,7 @@ header{
  8.	Work Experience Style
 ------------------------------------------------------*/
 .exprience{
-	background:#fff;
+	background:#111;
 }
 .exprience .container{
 	padding-top:85px ;
@@ -575,10 +575,10 @@ header{
 }
 
 .exprience h2{
-	color:#ff675f;
+	color:#fff;
 }
 .exprience p{
-	color:#84868d;
+	color:#ffe;
 	/*font-size:13px;*/
 	line-height:18px;
 }
@@ -591,7 +591,7 @@ header{
 }
 
 .workDetails .rightArea{
-	border-left: solid 1px #eaeaea;
+	border-left: solid 10px #333;
 	padding-bottom:47px;
 }
 .workDetails:last-child .rightArea{
@@ -600,6 +600,7 @@ header{
 .workYear{
 	font-size:17px;
 	color:#fff;
+	font-weight: bold;
 	background:#ff675f;
 	text-align:center;
 	width:120px;
@@ -619,7 +620,7 @@ header{
 }
 .exCon{
 	width:auto;
-	background:#f3f3f3;
+	background:#222;
 	border-bottom:solid 4px #eeeeee;
 	padding:22px 47px 6px 47px;
 	margin-left:15px;
@@ -627,15 +628,16 @@ header{
 }
 
 .exCon p{
-	color:#84868d;
+	color:#fff;
 	line-height:21px;
 }
 .exCon h4{
-	color:#474d5d;
+	color:#270;
 	padding-bottom:3px;
 }
 .exCon h5{
-	color:#474d5d;
+	color:#eee;
+	font-weight: bold;
 }
 
 
@@ -644,7 +646,7 @@ header{
  9.	Education Style
 ------------------------------------------------------*/
 .education{
-	background:#eeeeee;
+	background:#111;
 }
 .education .container{
 	padding-top:85px ;
@@ -652,10 +654,10 @@ header{
 }
 
 .education h2{
-	color:#ff675f;
+	color:#fff;
 }
 .education p{
-	color:#84868d;
+	color:#ffe;
 	/*font-size:13px;*/
 	line-height:18px;
 }
@@ -672,12 +674,12 @@ header{
 	background:url(../images/arrow-left-light.png) no-repeat 0 23px;
 }
 .education .exCon{
-	background:#fafafa;
+	background:#222;
 	border-bottom:solid 4px #e8e7e7;
 }
 
 .education .workDetails .rightArea{
-	border-left-color:#e5e4e4;
+	border-left-color:#333;
 }
 
 
@@ -687,7 +689,7 @@ header{
  10. Protfolio Style
 ------------------------------------------------------*/
 .protfolio{
-	background:#00bdbd;
+	background:#ffe;
 }
 .protfolio .container{
 	padding-top:85px ;
@@ -696,6 +698,7 @@ header{
 
 .protfolio .heading p{
 	padding-bottom:41px;
+	color: #ffe;
 }
 
 .protfolio h4{
@@ -723,11 +726,11 @@ header{
 	padding:16px 18px;
 	font-size:13px;
 	line-height:15px;
-	color:#ffffff;
+	color:#fff;
 	text-transform:uppercase;
 	display:block;
 	text-decoration:none;
-	border:solid 1px #95d9ee;
+	border:solid 10px #111;
 	
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
@@ -937,7 +940,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 ------------------------------------------------------*/
 
 .contact{
-	background:#fff;
+	background:#111;
 }
 .contact .container{
 	padding-top:85px ;
@@ -945,10 +948,10 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 }
 
 .contact h2{
-	color:#ff675f;
+	color:#fff;
 }
 .contact p{
-	color:#84868d;
+	color:#ffe;
 	/*font-size:13px;*/
 	line-height:18px;
 }
@@ -980,7 +983,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 
 
 .contactDetails{
-	background:#474d5d;
+	background:#fee;
 }
 .contactDetails .container{
 	padding-top:85px ;
@@ -1077,7 +1080,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
  12. Footer Style
 ------------------------------------------------------*/
 .footer{
-	background:#00bdbd;
+	background:#111;
 }
 .footer .container{
 	padding:40px 0;
